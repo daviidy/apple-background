@@ -24,7 +24,7 @@ We worked on all the requirements given on this project.
 
 ## Live Demo
 
-[Live Demo Link](https://daviidy.github.io/new-york-times/)
+[Live Demo Link](https://daviidy.github.io/apple-background/)
 
 ## Authors
 
