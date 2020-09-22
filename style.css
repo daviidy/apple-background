@@ -1,0 +1,179 @@
+body {
+  line-height: 1;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  background-color: #fff;
+}
+
+.top-menu {
+  background:#707070;
+  background:
+		-webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))),
+		-webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))),
+		-webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080))
+	;
+
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 865px;
+  margin-top: 2rem;
+  border-radius: 5px;
+}
+
+.nav-header {
+  display: flex;
+  flex-direction: row;
+  height: 36px;
+}
+
+.ul-nav-header {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  width: 740px;
+  justify-content: space-between;
+  margin: 0;
+  padding-left: 0;
+}
+
+.ul-nav-header li {
+  width: 106px;
+  border-right: solid 2px;
+  border-image: linear-gradient( to bottom, gray, rgba(0, 0, 0, 0) ) 1 100%;
+}
+
+.ul-nav-header a {
+  text-decoration: none;
+  color: #fff;
+  width: auto;
+  height: 36px;
+}
+
+.ul-nav-header li:hover {
+  background: rgba(57, 57, 57, 0.5);
+}
+
+.ul-nav-header li:nth-child(1):hover {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background: rgba(57, 57, 57, 0.5);
+}
+
+.ul-nav-header li:nth-child(1) a span {
+
+  background: url(./images/menu-background.png);
+  background-position-x: 44%;
+  background-position-y: 0%;
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin: 3px auto;
+
+}
+
+.ul-nav-header li:nth-child(2) a span {
+
+  background: url(./images/menu-background.png);
+  background-position-x: 44%;
+  background-position-y: 14%;
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin: 3px auto;
+
+}
+
+.ul-nav-header li:nth-child(3) a span {
+
+  background: url(./images/menu-background.png);
+  background-position-x: 44%;
+  background-position-y: 28%;
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin: 3px auto;
+
+}
+
+.ul-nav-header li:nth-child(4) a span {
+
+  background: url(./images/menu-background.png);
+  background-position-x: 44%;
+  background-position-y: 42%;
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin: 3px auto;
+
+}
+
+.ul-nav-header li:nth-child(5) a span {
+
+  background: url(./images/menu-background.png);
+  background-position-x: 44%;
+  background-position-y: 56%;
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin: 3px auto;
+
+}
+
+.ul-nav-header li:nth-child(6) a span {
+
+  background: url(./images/menu-background.png);
+  background-position-x: 44%;
+  background-position-y: 71%;
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin: 3px auto;
+
+}
+
+
+.ul-nav-header li:nth-child(7) a span {
+
+  background: url(./images/menu-background.png);
+  background-position-x: 44%;
+  background-position-y: 85%;
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin: 3px auto;
+
+}
+
+.ul-nav-header li:nth-child(8) a span {
+
+  background: url(./images/menu-background.png);
+  background-position-x: 44%;
+  background-position-y: 99%;
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin: 3px auto;
+
+}
+
+.div-search {
+  width: 106px;
+  margin-left: 5px;
+}
+
+.div-search input {
+  width: 100%;
+  height: 19px;
+  border-radius: 12px;
+  background: none;
+  margin-top: 5px;
+}
+
+.div-search i {
+  position: absolute;
+  top: 43px;
+  font-size: 12px;
+  margin-left: 4px;
+  color: #fff;
+}
