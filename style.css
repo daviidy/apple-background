@@ -234,9 +234,11 @@ nav {
 .footer-container a {
   text-decoration: none;
 }
+
 .footer-container img {
   height: 12px;
 }
+
 .copyright {
   display: flex;
 }
