@@ -26,6 +26,19 @@ We worked on all the requirements given on this project.
 
 [Live Demo Link](https://daviidy.github.io/apple-background/)
 
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+- Make sure to have a working browser installed on your computer
+- Optional: make sure to have git installed on your computer
+
+### Setup
+
+Run `git clone https://github.com/daviidy/apple-background.git` or download this repo and unzip it.
+
 ## Authors
 
 👤 **David YAO**
